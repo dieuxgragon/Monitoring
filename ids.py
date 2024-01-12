@@ -1,11 +1,10 @@
-import os
-import json 
 import fire
 
-class ids(object):
+class Calculator(object):
+  """A simple calculator class."""
 
-    def build(self):
-        print ('Build')
+  def double(self, number):
+    return 2 * number
 
 if __name__ == '__main__':
-    fire.fire(ids)
+  fire.Fire(Calculator)
