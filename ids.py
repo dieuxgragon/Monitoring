@@ -9,8 +9,7 @@ class ids(object):
             os.mkdir("var/ids")
         f = open("/var/ids/db.json" "a")
         f.write("ca a marcher")
-        f.close()    
-
+        f.close()
 
 if __name__ == '__main__':
     fire.Fire(ids)
