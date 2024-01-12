@@ -6,4 +6,4 @@ class ids(object):
         print ('Build')
 
 if __name__ == '__main__':
-    fire.fire(ids)
+    fire.Fire(ids)
