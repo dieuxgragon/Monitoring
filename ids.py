@@ -1,8 +1,13 @@
+import os
 import fire
 
 class ids(object):
     def db(self):
-        f = open("/var/ids/dbjson" "a")
+        if os.path.exists("var/ids/db.json"):
+            return 
+        else:
+            os.mkdir("var/ids")
+        f = open("/var/ids/db.json" "a")
         f.write("ca a marcher")
         f.close()    
 
