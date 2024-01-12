@@ -3,7 +3,7 @@ import fire
 class ids(object):
 
     def build(self):
-        print ('Build')
+        print ('coucou')
 
 if __name__ == '__main__':
     fire.Fire(ids)
