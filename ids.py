@@ -1,10 +1,9 @@
 import fire
 
-class Calculator(object):
-  """A simple calculator class."""
+class ids(object):
 
-  def double(self, number):
-    return 2 * number
+    def build(self):
+        print ('Build')
 
 if __name__ == '__main__':
-  fire.Fire(Calculator)
+    fire.fire(ids)
